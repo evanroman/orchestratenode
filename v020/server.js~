@@ -1,0 +1,8 @@
+var db = require('orchestrate')("9bb35e3a-44d2-46a7-a8b2-83a9db9c53f3");
+db.get('articles', 'test')
+.then(function (result) {
+    console.log(JSON.stringify(result));
+})
+.fail(function (err) {
+    console.log("fail");
+});

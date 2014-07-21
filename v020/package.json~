@@ -1,0 +1,13 @@
+{
+    "name": "Dorc",
+    "version": "0.0.1",
+    "description": "Dynamic Orchestrate blog engine",
+    "private":true,
+    "scripts": {
+	"start": "node server.js"
+    },
+    "dependencies": {
+	"orchestrate":"0.1.2"
+    },
+    "main": "server.js"
+}
